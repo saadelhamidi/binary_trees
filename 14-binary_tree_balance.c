@@ -10,7 +10,7 @@ int binary_tree_balance(const binary_tree_t *tree)
 {
 	if (tree)
 	{
-		/* Balance factor is the difference between the heights of left and right subtrees */
+		/* Balance factor is the difference between heights of left and right sub */
 		return (binary_tree_height(tree->left) - binary_tree_height(tree->right));
 	}
 	return (0);
