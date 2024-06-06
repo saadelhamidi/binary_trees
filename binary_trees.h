@@ -49,22 +49,22 @@ typedef struct queue
 } Queue;
 
 /* ----------- binary_tree_print.c ---------- */
-void binary_tree_printing(const binary_tree_t *tree);
+void binary_tree_print(const binary_tree_t *tree);
 
 /* ----------- 0-binary_tree_node.c ---------- */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 
 /* ------ 1-binary_tree_insert_left.c -------- */
-binary_tree_t *binary_tree_inserting_left(binary_tree_t *parent, int value);
+binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 
 /* ------ 2-binary_tree_insert_right.c ------- */
-binary_tree_t *binary_tree_inserting_right(binary_tree_t *parent, int value);
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 
 /* ---------- 3-binary_tree_delete.c --------- */
-void binary_tree_deleting(binary_tree_t *tree);
+void binary_tree_delete(binary_tree_t *tree);
 
 /* ---------- 4-binary_tree_is_leaf.c -------- */
-int binary_tree_is_leafing(const binary_tree_t *node);
+int binary_tree_is_leaf(const binary_tree_t *node);
 
 /* ---------- 5-binary_tree_is_root.c -------- */
 int binary_tree_is_rooting(const binary_tree_t *node);
